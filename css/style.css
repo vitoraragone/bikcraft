@@ -16,3 +16,9 @@
 
 /* -- COLORS -- */
 @import "./utilidades/cores.css";
+
+/* -- BICICLETTAS-LISTA -- */
+@import "./bicicletas/bicicletas-lista.css";
+
+/* -- TECNOLOGIAS -- */
+@import "./home/tecnologias.css";
