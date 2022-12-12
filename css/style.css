@@ -22,3 +22,12 @@
 
 /* -- TECNOLOGIAS -- */
 @import "./home/tecnologias.css";
+
+/* -- PARCEIROS -- */
+@import "./home/parceiros.css";
+
+/* -- DEPOIMENTO -- */
+@import "./home/depoimento.css";
+
+/* -- SEGURO  -- */
+@import "./seguros/seguros.css";
