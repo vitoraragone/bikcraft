@@ -31,3 +31,12 @@
 
 /* -- SEGURO  -- */
 @import "./seguros/seguros.css";
+
+/* -- FOOTER  -- */
+@import "./global/footer.css";
+
+/* -- FOOTER  -- */
+@import "./termos/termos.css";
+
+/* -- FOOTER  -- */
+@import "./bicicletas/bicicletas.css";
