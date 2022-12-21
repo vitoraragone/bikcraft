@@ -31,12 +31,14 @@
 
 /* -- SEGURO  -- */
 @import "./seguros/seguros.css";
+@import "./seguros/perguntas.css";
+@import "./seguros/vantagens.css";
 
 /* -- FOOTER  -- */
 @import "./global/footer.css";
 
-/* -- FOOTER  -- */
+/* -- TERMOS  -- */
 @import "./termos/termos.css";
 
-/* -- FOOTER  -- */
+/* -- BICICLETAS  -- */
 @import "./bicicletas/bicicletas.css";
