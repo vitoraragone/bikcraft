@@ -22,7 +22,6 @@
 }
 
 
-
 .btn:hover {
   background: linear-gradient( #ffb60d, #e59317);
   transition-duration: 0.5s;
@@ -93,6 +92,10 @@
   background-color: var(--cor-11);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.titulo {
+  background: url('../../assets/img/dec/top-right.svg') no-repeat top right 20px;
 }
 
 .titulo p {
