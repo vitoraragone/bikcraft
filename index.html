@@ -25,8 +25,18 @@
     />
 
     <!-- STYLESHEETS -->
-    <link rel="preload" href="./css/style.css" as="style" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon" />
+    <link rel="preload" href="./css/style.min.css" as="style" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header-bg">
@@ -52,16 +62,23 @@
     <main class="introducao-bg">
       <div class="introducao container">
         <div class="introducao-conteudo">
-          <h1 class="font-1-xxl cor-0">
+          <h1 class="font-1-xxl cor-0 fadeInLeft" data-anime="200">
             Bicicletas feitas sob medida<span class="cor-p1">.</span>
           </h1>
-          <p class="font-2-l cor-5">
+          <p
+            class="font-2-l cor-5 fadeInLeft"
+            data-anime="400"
+            data-clipboard-text=" Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
+          para você. Explore o mundo na sua velocidade com a Bikcraft."
+          >
             Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
             para você. Explore o mundo na sua velocidade com a Bikcraft.
           </p>
-          <a class="btn" href="./bicicletas.html">Escolha a sua</a>
+          <a class="btn" href="./bicicletas.html" data-anime="600"
+            >Escolha a sua</a
+          >
         </div>
-        <picture>
+        <picture class="fadeInRight" data-anime="800">
           <source
             media="(max-width: 800px)"
             srcset="./assets/img/bicicletas/nimbus.jpg"
@@ -273,6 +290,8 @@
         </p>
       </div>
     </footer>
+    <script src="./JS/plugin/simple-anime.js"></script>
+    <script src="./JS/plugin/clipboard.min.js"></script>
     <script src="./JS/script.js"></script>
   </body>
 </html>
